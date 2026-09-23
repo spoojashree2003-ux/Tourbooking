@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ticket Booking</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/lib/fa/css/all.min.css">
+</head>
+
+<script>
+function toggleMenu()
+ {
+    document.getElementById("mainMenu").classList.toggle("show");
+}
+</script>
+
+<body>
+
+   <h1>Tour Booking</h1>
+
+    <header>
+        <div class="container header-container">
+
+           <div class="header-content">
+
+                <button class="menu-toggle" onclick="toggleMenu()">
+                    <i class="fa-solid fa-ellipsis"></i>
+                </button>
+                
+
+                <div class="navbar" id="mainMenu">                
+                    <a href="#Home">HOME</a>
+                    <a href="#Band">BAND</a>                
+                    <a href="#Tour">TOUR</a>
+                    <a href="#Contact">CONTACTS</a>
+                    
+                    <ul class="dropdown-More">
+                        <li class="dropdown-parent">
+                            <a href="#">MORE <i class="fa-solid fa-sort-down"></i></a>
+
+                            <ul class="sub-more">
+                                <li><a href ="#places">places</a></li>
+                                <li><a href ="#Foods">Foods</a></li>
+                                <li><a href ="#Shopping">Shopping</a></li>
+                            </ul>
+                        </li>
+                    </ul>          
+                </div>
+                <div class="search">
+                    <a href="#"> <i class="fa-solid fa-magnifying-glass"></i></a> 
+                </div>
+            </div>
+       </div>
+    </header>
+    <main>
+
+    <section id = "banner-section">
+
+        <div class = "banner-img" >
+                <img src="/images/losangels.jpg" width="100%"  height="100%" >
+                
+                <div class="banner-content">
+                    <h1>Los Angeles</h1>
+                    <p>We had the best time playing at Venice Beach!</p>
+                </div>
+        </div>
+    </section>
+    
+    <section class="band" id="band">
+        <div class="container">
+        <h2>THE BAND</h2>
+        <h3>We love music</h3>
+        <p class="description">
+            We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </p>
+
+        <div class="members">
+
+            <div class="member 1">
+                <p>Band 1</p>
+                <img src="/images/bandmember.jpg"
+                     alt="Band Member">
+            </div>
+
+            <div class="member 2">
+                <p>Band 2</p>
+                <img src="/images/bandmember.jpg"
+                     alt="Band Member">
+            </div>
+
+            <div class="member 3">
+                <p>Band 3</p>
+                <img src="/images/bandmember.jpg"
+                     alt="Band Member">
+            </div>
+
+        </div>
+    </section>
+
+        
+    <section class="tour-section">
+
+        <div class="tour-title">
+            <h2>TOUR DATES</h2>
+            <p>Remember to book your tickets!</p>
+        </div>
+
+        <div class="dates">
+
+            <div class="month">
+                September
+                <span class="sold-out">Sold out</span>
+            </div>
+
+            <div class="month">
+                October
+                <span class="sold-out">Sold out</span>
+            </div>
+
+            <div class="month">
+                November
+                <span class="tickets-left">2</span>
+            </div>
+        </div>
+
+        <div class="cards">
+
+            <div class="card">
+                <img src="/images/newyork.jpg">
+
+                <div class="card-content">
+                    <h3>New York</h3>
+
+                    <div class="date">
+                        Fri 27 Nov 2016
+                    </div>
+
+                    <div class="description">
+                        Praesent tincidunt sed tellus utrutrum sed vitae justo.
+                    </div>
+
+                    <button class="buy-button">
+                        Buy Tickets
+                    </button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="/images/paris.jpg">
+
+                <div class="card-content">
+                    <h3>Paris</h3>
+
+                    <div class="date">
+                        Sat 28 Nov 2016
+                    </div>
+
+                    <div class="description">
+                        Praesent tincidunt sed tellus ut rutrum sed vitae justo.
+                    </div>
+
+                    <button class="buy-button">
+                        Buy Tickets
+                    </button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="/images/sanfran.jpg">
+
+                <div class="card-content">
+                    <h3>San Francisco</h3>
+
+                    <div class="date">
+                        Sun 29 Nov 2016
+                    </div>
+
+                    <div class="description">
+                        Praesent tincidunt sed tellus ut rutrum sed vitae justo.
+                    </div>
+
+                    <button class="buy-button">
+                        Buy Tickets
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<section class="CONTACT">
+
+    <div class="contact-section">
+        <h2>CONTACT</h2>
+        <h3>fan? Drop a note!</h3>
+
+        <div class="contact-content">
+            <div class="contact-info">
+                <p><i class="fa-solid fa-location-dot"></i> Chicago, US</p>
+                <p><i class="fa-solid fa-phone"></i> phone: +00 151515</p>
+                <p><i class="fa-solid fa-envelope"></i> Email: mail@mail.com</p>
+            </div>
+            <form>
+                <div class="field_box">
+                <input type="text" placeholder="Name">
+                <input type="email" placeholder="Email">
+                </div>
+               
+                <textarea placeholder="Message" rows="15" cols="10" ></textarea>
+                 <button class="submit-button">SEND</button>
+            </form>
+         </div>
+     </div>
+
+<section>
+    <img src="/images/map.jpg" width="100%" height="100%">
+</section>
+
+  <div class="footer">
+    <div class="social-icons">
+    <img src="/images/facebook.png" >
+    <img src="/images/insta.png" >
+    <img src="/images/snap.png" >
+    <img src="/images/pintrest.png" >
+    <img src="/images/twitter.png" >
+    <img src="/images/linkdin.jpeg" >
+    </div>
+    <p>Powered by Wix.com</p>
+  </div>
+</div>
+</section>
+</body>
+</html>
